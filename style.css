@@ -1,0 +1,23 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+body {
+    min-height: 100vh;
+
+    /* Dark gradient */
+    background: linear-gradient(
+        135deg,
+        #0a0a0a 0%,
+        #121212 30%,
+        #1b1b1b 70%,
+        #0d0d0d 100%
+    );
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
